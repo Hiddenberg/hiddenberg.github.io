@@ -1,11 +1,15 @@
 body {
    font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
+   background-color: #282852;
+   margin: 0 8px;
 }
 
 #container {
-   width: 80%;
+   width: 80vw;
    margin: 0 auto;
    border: 1px black solid;
+   background-color: white;
 }
 
 header {
@@ -13,4 +17,8 @@ header {
    background-color: gray;
    color: white;
    padding: 0.5em 0;
+}
+
+#post {
+   padding: 1.5em;
 }
